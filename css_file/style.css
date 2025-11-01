@@ -1,0 +1,50 @@
+.title {
+  color: blue;
+  font-size: 50px;
+}
+
+.description {
+  color: gray;
+  font-size: 25px;
+}
+
+.backgrounStyle {
+  background-color: #f5f57cff;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.button {
+  width: 100%;
+  background-color: #eb9c60ff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.inputField {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+.resultText {
+  color: white;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.result {
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.result span {
+  font-weight: bold;
+}

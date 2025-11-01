@@ -5,17 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thursina</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css_file/style.css">
 </head>
 
 <body>
-    <input type="number" id="input_number_1" placeholder="inputkan angka pertama">
-    <input type="number" id="input_number_2" placeholder="inputkan angka kedua">
-    <br>
-    Hasil penjumlahan: <h1 id="result">0</h1>
-    <button onclick="hitung()">Hitung</button>
+    <div class="backgrounStyle">
+        <input class="inputField" type="number" id="input_number_1" placeholder="inputkan angka pertama">
+        <input class="inputField" type="number" id="input_number_2" placeholder="inputkan angka kedua">
+        <br>
+        <h3 id="resultText">Hasil penjumlahan: <span id="result">0</span>
+        </h3>
+        <button class="button" onclick="hitung()">Hitung</button>
+    </div>
 
 </body>
-<script src="script.js"></script>
+<script src="./js_script/script.js"></script>
 
 </html>
